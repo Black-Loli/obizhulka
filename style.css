@@ -1,0 +1,17 @@
+div {
+  background: aqua;
+  width: 100%;
+  height: 100px;
+}
+
+@media (min-width: 600px) {
+  div {
+    background: aqua;
+  }
+}
+
+@media (max-width: 600px) {
+  div {
+    background: red;
+  }
+}
